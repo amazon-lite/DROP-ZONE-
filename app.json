@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "DROPZONE",
+    "slug": "dropzone",
+    "scheme": "dropzone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.dropzone.esports",
+      "googleServicesFile": "./google-services.json",
+      "permissions": ["POST_NOTIFICATIONS", "VIBRATE"]
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
